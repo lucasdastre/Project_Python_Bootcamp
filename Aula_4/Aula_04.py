@@ -1,7 +1,7 @@
 #O python tem inferencia automatica de variaveis
 #tipagem dinamica
 
-from typing import Dict
+from typing import Dict , Any
 import json
 
 
@@ -66,6 +66,8 @@ print(wish_list_json)
 Livros : list = []
 
 ficar = True
+info : Dict[str , Any]  = {}
+
 
 while ficar:
     info = {
