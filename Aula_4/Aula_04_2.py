@@ -11,14 +11,14 @@ A primeira linha do CSV deve ser o cabeçalho com os nomes das colunas.
 No final, arquivo_csv vai ser uma lista de dicionários, ex.:'''
 
 #Gerenciador de contextos
-# with open(caminho_arquivo , mode = 
-#           'r' , encoding = 'utf-8') as arquivo:
-#     leitor_csv =csv.DictReader(arquivo)
+with open(caminho_arquivo , mode = 
+          'r' , encoding = 'utf-8') as arquivo:
+    leitor_csv =csv.DictReader(arquivo)
 
-#     for linha in leitor_csv:
-#         arquivo_csv.append(linha)
+    for linha in leitor_csv:
+        arquivo_csv.append(linha)
 
-#     print(arquivo_csv)
+    print(arquivo_csv)
 
 
 
@@ -40,3 +40,9 @@ def ordenar_lista(numero : list) -> list:
 
 nova_lista = ordenar_lista(lista_de_num)
 print(nova_lista)
+
+
+#ja existe uma funcao que faz ordenção  sort
+
+#porque usamos funcoes ?
+#para reutilização funcoes
