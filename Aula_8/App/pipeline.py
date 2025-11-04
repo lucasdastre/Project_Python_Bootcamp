@@ -1,0 +1,3 @@
+import etl
+
+etl.pipeline()
